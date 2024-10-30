@@ -1,0 +1,29 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+========================================
+circlize version 0.4.15
+CRAN page: https://cran.r-project.org/package=circlize
+Github page: https://github.com/jokergoo/circlize
+Documentation: https://jokergoo.github.io/circlize_book/book/
+
+If you use it in published research, please cite:
+Gu, Z. circlize implements and enhances circular visualization
+  in R. Bioinformatics 2014.
+
+This message can be suppressed by:
+  suppressPackageStartupMessages(library(circlize))
+========================================
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.4
+✔ lubridate 1.9.3     ✔ stringr   1.5.0
+✔ purrr     1.0.2     ✔ tibble    3.2.1

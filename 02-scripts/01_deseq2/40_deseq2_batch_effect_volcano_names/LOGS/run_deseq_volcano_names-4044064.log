@@ -1,0 +1,52 @@
+apollo-07.local
+List of 48
+ $ --result_dir         : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names"
+ $ --c1                 : chr "hAO_inf"
+ $ --c2                 : chr "hAO_ctrl"
+ $ --nfcore             : logi FALSE
+ $ --condition_col      : chr "group"
+ $ --sample_col         : chr "sample"
+ $ --paired_grp         : NULL
+ $ --remove_batch_effect: logi TRUE
+ $ --batch_col          : chr "batch"
+ $ --covariate_formula  : NULL
+ $ --plot_title         : NULL
+ $ --prefix             : NULL
+ $ --fdr_cutoff         : chr "0.1"
+ $ --fc_cutoff          : chr "0.5"
+ $ --gtf_file           : NULL
+ $ --gene_id_type       : chr "ENSEMBL"
+ $ --n_cpus             : chr "1"
+ $ --skip_gsea          : logi FALSE
+ $ --genes_of_interest  : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/04_deseq2_batch_effect/volcano_names/genes_of_interest_volcano.csv"
+ $ --organism           : chr "human"
+ $ --save_workspace     : logi FALSE
+ $ --help               : logi FALSE
+ $ <sample_sheet>       : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/samplesheet_deseq_batch_effect.csv"
+ $ <count_table>        : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/salmon.merged.gene_counts.tsv"
+ $ result_dir           : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names"
+ $ c1                   : chr "hAO_inf"
+ $ c2                   : chr "hAO_ctrl"
+ $ nfcore               : logi FALSE
+ $ condition_col        : chr "group"
+ $ sample_col           : chr "sample"
+ $ paired_grp           : NULL
+ $ remove_batch_effect  : logi TRUE
+ $ batch_col            : chr "batch"
+ $ covariate_formula    : NULL
+ $ plot_title           : NULL
+ $ prefix               : NULL
+ $ fdr_cutoff           : chr "0.1"
+ $ fc_cutoff            : chr "0.5"
+ $ gtf_file             : NULL
+ $ gene_id_type         : chr "ENSEMBL"
+ $ n_cpus               : chr "1"
+ $ skip_gsea            : logi FALSE
+ $ genes_of_interest    : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/04_deseq2_batch_effect/volcano_names/genes_of_interest_volcano.csv"
+ $ organism             : chr "human"
+ $ save_workspace       : logi FALSE
+ $ help                 : logi FALSE
+ $ sample_sheet         : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/samplesheet_deseq_batch_effect.csv"
+ $ count_table          : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/salmon.merged.gene_counts.tsv"
+NULL
+[1] "Correcting possible batch effects"

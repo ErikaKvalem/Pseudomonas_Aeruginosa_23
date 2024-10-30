@@ -1,0 +1,152 @@
+Loading required package: S4Vectors
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Welcome to pcaExplorer v2.24.0
+
+If you use pcaExplorer in your work, please cite:
+
+Federico Marini, Harald Binder
+pcaExplorer: an R/Bioconductor package for interacting with RNA-seq principal components
+BMC Bioinformatics, 2019 - https://doi.org/10.1186/s12859-019-2879-1
+
+Loading required package: graph
+Loading required package: GO.db
+Loading required package: AnnotationDbi
+Loading required package: SparseM
+
+Attaching package: ‘SparseM’
+
+The following object is masked from ‘package:base’:
+
+    backsolve
+
+
+groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+clusterProfiler v4.6.2  For help: https://yulab-smu.top/biomedical-knowledge-mining-book/
+
+If you use clusterProfiler in published research, please cite:
+T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, W Tang, L Zhan, X Fu, S Liu, X Bo, and G Yu. clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. The Innovation. 2021, 2(3):100141
+ReactomePA v1.42.0  For help: https://yulab-smu.top/biomedical-knowledge-mining-book/
+
+If you use ReactomePA in published research, please cite:
+Guangchuang Yu, Qing-Yu He. ReactomePA: an R/Bioconductor package for reactome pathway analysis and visualization. Molecular BioSystems 2016, 12(2):477-479
+[conflicted] Will prefer dplyr::select over any other package.
+[conflicted] Will prefer dplyr::filter over any other package.
+[conflicted] Will prefer dplyr::count over any other package.
+Loading required package: ggrepel
+[conflicted] Will prefer base::paste over any other package.
+[conflicted] Will prefer dplyr::rename over any other package.
+
+Rows: 16 Columns: 7
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (6): sample, group, fastq_1, strandedness, condition, batch
+lgl (1): fastq_2
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 60708 Columns: 18
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): gene_id, gene_name
+dbl (16): COPD_r1_ctrl, COPD_r1_inf, COPD_r2_ctrl, COPD_r2_inf, COPD_r3_ctrl...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+'select()' returned 1:many mapping between keys and columns
+converting counts to integer mode
+Warning message:
+In DESeqDataSet(se, design = design, ignoreRank) :
+  some variables in design formula are characters, converting to factors
+converting counts to integer mode
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+Warning message:
+In DESeqDataSet(se, design = design, ignoreRank) :
+  some variables in design formula are characters, converting to factors
+Joining with `by = join_by(gene_id)`
+Joining with `by = join_by(gene_id)`
+using pre-existing size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+using 'normal' for LFC shrinkage, the Normal prior from Love et al (2014).
+
+Note that type='apeglm' and type='ashr' have shown to have less bias than type='normal'.
+See ?lfcShrink for more details on shrinkage type, and the DESeq2 vignette.
+Reference: https://doi.org/10.1093/bioinformatics/bty895

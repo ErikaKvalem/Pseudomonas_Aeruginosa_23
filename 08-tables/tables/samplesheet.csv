@@ -1,0 +1,17 @@
+sample,group,fastq_1,fastq_2,strandedness
+hAO_r1_ctrl,hAO_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO1_R1_001.fastq.gz,,forward
+hAO_r1_inf,hAO_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO2_R1_001.fastq.gz,,forward
+COPD_r1_ctrl,COPD_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO3_R1_001.fastq.gz,,forward
+COPD_r1_inf,COPD_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO4_R1_001.fastq.gz,,forward
+hAO_r2_ctrl,hAO_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO5_R1_001.fastq.gz,,forward
+hAO_r2_inf,hAO_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO6_R1_001.fastq.gz,,forward
+COPD_r2_ctrl,COPD_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO7_R1_001.fastq.gz,,forward
+COPD_r2_inf,COPD_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO8_R1_001.fastq.gz,,forward
+hAO_r3_ctrl,hAO_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO9_R1_001.fastq.gz,,forward
+hAO_r3_inf,hAO_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO10_R1_001.fastq.gz,,forward
+COPD_r3_ctrl,COPD_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO11_R1_001.fastq.gz,,forward
+COPD_r3_inf,COPD_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO12_R1_001.fastq.gz,,forward
+hAO_r4_ctrl,hAO_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO13_R1_001.fastq.gz,,forward
+hAO_r4_inf,hAO_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO14_R1_001.fastq.gz,,forward
+COPD_r4_ctrl,COPD_ctrl,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO15_R1_001.fastq.gz,,forward
+COPD_r4_inf,COPD_inf,/data/projects/2023/Pseudomonas_aeruginosa/00_RAW/LO16_R1_001.fastq.gz,,forward

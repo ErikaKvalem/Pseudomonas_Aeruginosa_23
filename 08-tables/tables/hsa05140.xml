@@ -1,0 +1,11 @@
+--2023-10-30 10:19:45--  https://rest.kegg.jp/get/hsa05140/kgml
+Resolving rest.kegg.jp (rest.kegg.jp)... 133.103.200.27
+Connecting to rest.kegg.jp (rest.kegg.jp)|133.103.200.27|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘kgml’
+
+     0K .......... .......... .......                          44,1K=0,6s
+
+2023-10-30 10:19:47 (44,1 KB/s) - ‘kgml’ saved [27671]
+

@@ -1,0 +1,101 @@
+Nov-18 15:15:23.624 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ../main.nf -resume -profile icbi,conda
+Nov-18 15:15:23.871 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.2
+Nov-18 15:15:23.909 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/kvalem/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.3
+Nov-18 15:15:23.926 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Nov-18 15:15:23.927 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Nov-18 15:15:23.932 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Nov-18 15:15:23.949 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Nov-18 15:15:23.972 [main] DEBUG nextflow.config.ConfigBuilder - Found config home: /home/kvalem/.nextflow/config
+Nov-18 15:15:23.972 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/nextflow.config
+Nov-18 15:15:23.975 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/kvalem/.nextflow/config
+Nov-18 15:15:23.975 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/nextflow.config
+Nov-18 15:15:24.015 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `icbi,conda`
+Nov-18 15:15:25.226 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `icbi,conda`
+Nov-18 15:15:25.533 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [icbi, icbi_long, conda]
+Nov-18 15:15:25.582 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Nov-18 15:15:25.606 [main] INFO  nextflow.cli.CmdRun - Launching `../main.nf` [amazing_planck] DSL2 - revision: 2fadf66be9
+Nov-18 15:15:25.608 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Nov-18 15:15:25.608 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Nov-18 15:15:25.622 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/kvalem/.nextflow/secrets/store.json
+Nov-18 15:15:25.626 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4c2af006] - activable => nextflow.secret.LocalSecretsProvider@4c2af006
+Nov-18 15:15:25.711 [main] DEBUG nextflow.Session - Session UUID: aa0d5c88-ac2f-4251-b083-171e4f4d8b1d
+Nov-18 15:15:25.711 [main] DEBUG nextflow.Session - Run name: amazing_planck
+Nov-18 15:15:25.712 [main] DEBUG nextflow.Session - Executor pool size: 64
+Nov-18 15:15:25.730 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=192; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-18 15:15:25.769 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.2 build 5870
+  Created: 08-06-2023 08:29 UTC (10:29 CEST)
+  System: Linux 3.10.0-1160.66.1.el7.x86_64
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 17.0.2+8-86
+  Encoding: UTF-8 (UTF-8)
+  Process: 16403@zeus.icbi.local [172.16.132.100]
+  CPUs: 64 - Mem: 3 TB (2.3 TB) - Swap: 4 GB (4 GB)
+Nov-18 15:15:25.845 [main] DEBUG nextflow.Session - Work-dir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work [ceph]
+Nov-18 15:15:25.886 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Nov-18 15:15:25.908 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Nov-18 15:15:25.964 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Nov-18 15:15:25.989 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 65; maxThreads: 1000
+Nov-18 15:15:26.255 [main] DEBUG nextflow.Session - Session start
+Nov-18 15:15:26.677 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Nov-18 15:15:27.205 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:.*COUNTMAT` matches process COUNTMAT
+Nov-18 15:15:27.208 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COUNTMAT` matches process COUNTMAT
+Nov-18 15:15:27.212 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: sge
+Nov-18 15:15:27.213 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'sge'
+Nov-18 15:15:27.228 [main] DEBUG nextflow.executor.Executor - [warm up] executor > sge
+Nov-18 15:15:27.235 [main] DEBUG n.processor.TaskPollingMonitor - Creating task monitor for executor 'sge' > capacity: 600; pollInterval: 5s; dumpInterval: 5m 
+Nov-18 15:15:27.240 [main] DEBUG n.executor.AbstractGridExecutor - Creating executor 'sge' > queue-stat-interval: 1m
+Nov-18 15:15:27.342 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:.*HEATMAP` matches process HEATMAP
+Nov-18 15:15:27.342 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:HEATMAP` matches process HEATMAP
+Nov-18 15:15:27.343 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: sge
+Nov-18 15:15:27.344 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'sge'
+Nov-18 15:15:27.348 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: HEATMAP, COUNTMAT
+Nov-18 15:15:27.349 [main] DEBUG nextflow.Session - Igniting dataflow network (6)
+Nov-18 15:15:27.358 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > COUNTMAT
+Nov-18 15:15:27.359 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > HEATMAP
+Nov-18 15:15:27.360 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Nov-18 15:15:27.360 [main] DEBUG nextflow.Session - Session await
+Nov-18 15:15:27.550 [Actor Thread 38] DEBUG nextflow.conda.CondaCache - mamba found local env for environment=/home/kvalem/.conda/envs/2022-default-scanpy; path=/home/kvalem/.conda/envs/2022-default-scanpy
+Nov-18 15:15:27.800 [Actor Thread 30] INFO  nextflow.processor.TaskProcessor - [86/b79c49] Cached process > COUNTMAT (6)
+Nov-18 15:15:27.800 [Actor Thread 34] INFO  nextflow.processor.TaskProcessor - [32/90dd75] Cached process > COUNTMAT (8)
+Nov-18 15:15:27.800 [Actor Thread 22] INFO  nextflow.processor.TaskProcessor - [ee/fd795b] Cached process > COUNTMAT (2)
+Nov-18 15:15:27.800 [Actor Thread 20] INFO  nextflow.processor.TaskProcessor - [31/c2bd05] Cached process > COUNTMAT (1)
+Nov-18 15:15:27.800 [Actor Thread 32] INFO  nextflow.processor.TaskProcessor - [b9/3a7146] Cached process > COUNTMAT (7)
+Nov-18 15:15:27.800 [Actor Thread 24] INFO  nextflow.processor.TaskProcessor - [62/1de17d] Cached process > COUNTMAT (3)
+Nov-18 15:15:27.800 [Actor Thread 26] INFO  nextflow.processor.TaskProcessor - [af/ed4bec] Cached process > COUNTMAT (4)
+Nov-18 15:15:27.800 [Actor Thread 36] INFO  nextflow.processor.TaskProcessor - [55/2189c6] Cached process > COUNTMAT (9)
+Nov-18 15:15:27.800 [Actor Thread 28] INFO  nextflow.processor.TaskProcessor - [0c/b89d95] Cached process > COUNTMAT (5)
+Nov-18 15:15:27.862 [Actor Thread 22] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=192; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Nov-18 15:15:28.134 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (8) > jobId: 3989815; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/76/190a9c0e972c0b23a360155af8a23d
+Nov-18 15:15:28.135 [Task submitter] INFO  nextflow.Session - [76/190a9c] Submitted process > HEATMAP (8)
+Nov-18 15:15:28.176 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (9) > jobId: 3989816; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/8c/4a113180a30956dd0100a253fed786
+Nov-18 15:15:28.177 [Task submitter] INFO  nextflow.Session - [8c/4a1131] Submitted process > HEATMAP (9)
+Nov-18 15:15:28.211 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (5) > jobId: 3989817; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/21/a6238d0c4ba392110785a45e4b32dc
+Nov-18 15:15:28.211 [Task submitter] INFO  nextflow.Session - [21/a6238d] Submitted process > HEATMAP (5)
+Nov-18 15:15:28.246 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (6) > jobId: 3989818; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/ff/5b0a928f6e14d3de6b3e238a62011b
+Nov-18 15:15:28.246 [Task submitter] INFO  nextflow.Session - [ff/5b0a92] Submitted process > HEATMAP (6)
+Nov-18 15:15:28.275 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (1) > jobId: 3989819; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/a8/476f9d7f9a1929a8bc513de7e697f2
+Nov-18 15:15:28.275 [Task submitter] INFO  nextflow.Session - [a8/476f9d] Submitted process > HEATMAP (1)
+Nov-18 15:15:28.302 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (7) > jobId: 3989820; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/5e/cb3917e545171249b018dfebb99fe4
+Nov-18 15:15:28.303 [Task submitter] INFO  nextflow.Session - [5e/cb3917] Submitted process > HEATMAP (7)
+Nov-18 15:15:28.324 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (3) > jobId: 3989821; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/cd/903957c81ff21c763f974f3b360a4a
+Nov-18 15:15:28.325 [Task submitter] INFO  nextflow.Session - [cd/903957] Submitted process > HEATMAP (3)
+Nov-18 15:15:28.350 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (2) > jobId: 3989822; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/15/74851fe52cbe4e64a3878fa9d57c82
+Nov-18 15:15:28.350 [Task submitter] INFO  nextflow.Session - [15/74851f] Submitted process > HEATMAP (2)
+Nov-18 15:15:28.370 [Task submitter] DEBUG nextflow.executor.GridTaskHandler - [SGE] submitted process HEATMAP (4) > jobId: 3989823; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/57/5000d36ef3f12e8a29c84843d38ba7
+Nov-18 15:15:28.370 [Task submitter] INFO  nextflow.Session - [57/5000d3] Submitted process > HEATMAP (4)
+Nov-18 15:15:52.262 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989815; id: 17; name: HEATMAP (8); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/76/190a9c0e972c0b23a360155af8a23d started: 1700316942267; exited: 2023-11-18T14:15:51.949097759Z; ]
+Nov-18 15:15:52.288 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989816; id: 18; name: HEATMAP (9); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/8c/4a113180a30956dd0100a253fed786 started: 1700316942275; exited: 2023-11-18T14:15:51.91685227Z; ]
+Nov-18 15:15:52.305 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989817; id: 14; name: HEATMAP (5); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/21/a6238d0c4ba392110785a45e4b32dc started: 1700316942278; exited: 2023-11-18T14:15:51.847833943Z; ]
+Nov-18 15:15:52.319 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989818; id: 15; name: HEATMAP (6); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/ff/5b0a928f6e14d3de6b3e238a62011b started: 1700316942282; exited: 2023-11-18T14:15:49.73775539Z; ]
+Nov-18 15:15:52.335 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989819; id: 10; name: HEATMAP (1); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/a8/476f9d7f9a1929a8bc513de7e697f2 started: 1700316942285; exited: 2023-11-18T14:15:52.096281623Z; ]
+Nov-18 15:15:52.354 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989820; id: 16; name: HEATMAP (7); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/5e/cb3917e545171249b018dfebb99fe4 started: 1700316942288; exited: 2023-11-18T14:15:49.685127005Z; ]
+Nov-18 15:15:52.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989821; id: 12; name: HEATMAP (3); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/cd/903957c81ff21c763f974f3b360a4a started: 1700316942292; exited: 2023-11-18T14:15:51.828762624Z; ]
+Nov-18 15:15:52.449 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989822; id: 11; name: HEATMAP (2); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/15/74851fe52cbe4e64a3878fa9d57c82 started: 1700316942295; exited: 2023-11-18T14:15:50.159421756Z; ]
+Nov-18 15:16:02.261 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[jobId: 3989823; id: 13; name: HEATMAP (4); status: COMPLETED; exit: 0; error: -; workDir: /data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/test/work/57/5000d36ef3f12e8a29c84843d38ba7 started: 1700316942298; exited: 2023-11-18T14:16:01.466773646Z; ]
+Nov-18 15:16:02.271 [main] DEBUG nextflow.Session - Session await > all processes finished
+Nov-18 15:16:07.252 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Nov-18 15:16:07.259 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Nov-18 15:16:07.272 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=9; failedCount=0; ignoredCount=0; cachedCount=9; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=10m 2s; failedDuration=0ms; cachedDuration=7m 17s;loadCpus=0; loadMemory=0; peakRunning=9; peakCpus=54; peakMemory=0; ]
+Nov-18 15:16:07.437 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Nov-18 15:16:07.472 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Nov-18 15:16:07.474 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

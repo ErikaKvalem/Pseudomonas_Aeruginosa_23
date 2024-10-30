@@ -1,0 +1,12 @@
+[2023-12-12 15:10:51] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] Reading JSON from `/home/kvalem/.cache/OmnipathR/cache.json` (encoding: UTF-8).
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2023-12-12 15:10:51] [INFO]    [OmnipathR] Initialized cache: `/home/kvalem/.cache/OmnipathR`.
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] Reading JSON from `/usr/local/bioinf/R/R-4.2.3/lib64/R/library/OmnipathR/db/db_def.json` (encoding: UTF-8).
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] Reading JSON from `/usr/local/bioinf/R/R-4.2.3/lib64/R/library/OmnipathR/internal/magic_bytes.json` (encoding: UTF-8).
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] Reading JSON from `/usr/local/bioinf/R/R-4.2.3/lib64/R/library/OmnipathR/internal/urls.json` (encoding: UTF-8).
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] JSON validation successful: TRUE
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] Reading JSON from `/usr/local/bioinf/R/R-4.2.3/lib64/R/library/OmnipathR/internal/id_types.json` (encoding: UTF-8).
+[2023-12-12 15:10:51] [TRACE]   [OmnipathR] JSON validation successful: TRUE

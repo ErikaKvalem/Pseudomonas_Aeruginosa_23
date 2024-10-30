@@ -1,0 +1,128 @@
+apollo-03.local
+List of 48
+ $ --result_dir         : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names"
+ $ --c1                 : chr "hAO_inf"
+ $ --c2                 : chr "hAO_ctrl"
+ $ --nfcore             : logi FALSE
+ $ --condition_col      : chr "group"
+ $ --sample_col         : chr "sample"
+ $ --paired_grp         : NULL
+ $ --remove_batch_effect: logi TRUE
+ $ --batch_col          : chr "batch"
+ $ --covariate_formula  : NULL
+ $ --plot_title         : NULL
+ $ --prefix             : NULL
+ $ --fdr_cutoff         : chr "0.1"
+ $ --fc_cutoff          : chr "0.5"
+ $ --gtf_file           : NULL
+ $ --gene_id_type       : chr "ENSEMBL"
+ $ --n_cpus             : chr "1"
+ $ --skip_gsea          : logi FALSE
+ $ --genes_of_interest  : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/04_deseq2_batch_effect/volcano_names/genes_of_interest"| __truncated__
+ $ --organism           : chr "human"
+ $ --save_workspace     : logi FALSE
+ $ --help               : logi FALSE
+ $ <sample_sheet>       : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/samplesheet_deseq_batch_effect.csv"
+ $ <count_table>        : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/salmon.merged.gene_counts.tsv"
+ $ result_dir           : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names"
+ $ c1                   : chr "hAO_inf"
+ $ c2                   : chr "hAO_ctrl"
+ $ nfcore               : logi FALSE
+ $ condition_col        : chr "group"
+ $ sample_col           : chr "sample"
+ $ paired_grp           : NULL
+ $ remove_batch_effect  : logi TRUE
+ $ batch_col            : chr "batch"
+ $ covariate_formula    : NULL
+ $ plot_title           : NULL
+ $ prefix               : NULL
+ $ fdr_cutoff           : chr "0.1"
+ $ fc_cutoff            : chr "0.5"
+ $ gtf_file             : NULL
+ $ gene_id_type         : chr "ENSEMBL"
+ $ n_cpus               : chr "1"
+ $ skip_gsea            : logi FALSE
+ $ genes_of_interest    : chr "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/04_deseq2_batch_effect/volcano_names/genes_of_interest"| __truncated__
+ $ organism             : chr "human"
+ $ save_workspace       : logi FALSE
+ $ help                 : logi FALSE
+ $ sample_sheet         : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/samplesheet_deseq_batch_effect.csv"
+ $ count_table          : chr "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/tables/salmon.merged.gene_counts.tsv"
+NULL
+[1] "Correcting possible batch effects"
+   gene_id             baseMean        log2FoldChange         lfcSE        
+ Length:21612       Min.   :     1.1   Min.   :-8.32877   Min.   :0.06628  
+ Class :character   1st Qu.:     6.6   1st Qu.:-0.26197   1st Qu.:0.13642  
+ Mode  :character   Median :    82.2   Median :-0.02513   Median :0.27183  
+                    Mean   :   624.0   Mean   :-0.03167   Mean   :0.60768  
+                    3rd Qu.:   428.8   3rd Qu.: 0.19802   3rd Qu.:0.92947  
+                    Max.   :420582.9   Max.   :12.00703   Max.   :3.45686  
+      stat               pvalue            padj            weight       
+ Min.   :-13.90663   Min.   :0.0000   Min.   :0.0000   Min.   :0.00000  
+ 1st Qu.: -0.78004   1st Qu.:0.1927   1st Qu.:0.6889   1st Qu.:0.01827  
+ Median : -0.08925   Median :0.4699   Median :1.0000   Median :0.63272  
+ Mean   :  0.01450   Mean   :0.4671   Mean   :0.8066   Mean   :1.00000  
+ 3rd Qu.:  0.65175   3rd Qu.:0.7335   3rd Qu.:1.0000   3rd Qu.:1.40851  
+ Max.   : 24.94422   Max.   :0.9999   Max.   :1.0000   Max.   :4.04153  
+ log2FoldChange_shrink  lfcSE_shrink      gene_name         genes_description 
+ Min.   :-1.3068813    Min.   :0.04211   Length:21612       Length:21612      
+ 1st Qu.:-0.0912759    1st Qu.:0.09536   Class :character   Class :character  
+ Median :-0.0082750    Median :0.12425   Mode  :character   Mode  :character  
+ Mean   :-0.0007341    Mean   :0.12710                                        
+ 3rd Qu.: 0.0755918    3rd Qu.:0.16170                                        
+ Max.   : 2.6999939    Max.   :0.18746                                        
+[1] 1358
+[[1]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_PCA_after_batch_effect_correction.svg"
+
+[[2]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/all_samples_PCA_after_batch_effect_correction.svg"
+
+[[1]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_IHWallGenes.xlsx"
+
+[[2]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_IHWsigGenes.xlsx"
+
+[[3]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_IHWsigFCgenes_1.4142135623731_fold.xlsx"
+
+[[1]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_topGO_IHWsig_BP.xlsx"
+
+[[2]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_topGO_IHWsig_MF.xlsx"
+
+[[1]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_ORA_KEGG_heatplot.svg"
+
+[[2]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_ORA_Reactome_heatplot.svg"
+
+[[3]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_ORA_WikiPathway_heatplot.svg"
+
+[[4]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_ORA_GO_BP_heatplot.svg"
+
+[[5]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_ORA_GO_MF_heatplot.svg"
+
+[[1]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_GSEA_KEGG_cnetplot.svg"
+
+[[2]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_GSEA_Reactome_cnetplot.svg"
+
+[[3]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_GSEA_WikiPathway_cnetplot.svg"
+
+[[4]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_GSEA_GO_BP_cnetplot.svg"
+
+[[5]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_GSEA_GO_MF_cnetplot.svg"
+
+[[1]]
+[1] "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/06_deseq2_batch_effect_volcano_names/hAO_inf_hAO_ctrl_genes_of_interest.xlsx"
+

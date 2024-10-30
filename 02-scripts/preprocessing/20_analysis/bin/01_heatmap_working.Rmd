@@ -1,0 +1,281 @@
+---
+title: "01_heatmap_copy_2"
+output: html_document
+date: "2023-11-19"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyr)
+library(dplyr)
+library(tibble)
+library(readr)
+library(stringr)
+library(ComplexHeatmap)
+library(circlize)
+library(conflicted)
+conflict_prefer("filter", "dplyr")
+conflict_prefer("select", "dplyr")
+conflict_prefer("rename", "dplyr")
+```
+
+
+```{r}
+
+```
+
+## Heatmap
+
+```{r}
+#"cilium_assembly","cilium_organization","cilium_movement", "nitric_oxide_metabolic_process"] 
+count_mat = "/data/projects/2023/Pseudomonas_aeruginosa/30_downstream_analysis/004_batch_effect/countmat/nitric_oxide_metabolic_process_count_mat.csv"
+prefix="nitric_oxide_metabolic_process"
+de_res = "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/04_deseq2_batch_effect/hAO_inf_hAO_ctrl_IHWallGenes.tsv"
+count_mat <- read_csv(count_mat)
+de_res <- read_tsv(de_res)
+prefix = gsub("_count_mat","",prefix)
+
+
+# Create & reshape data
+data <- as.matrix(count_mat)
+rownames(data) <- data[,2]
+data <- data[,-1:-2]
+data<- data[, c(  "hAO_r1_ctrl",  "hAO_r2_ctrl",  "hAO_r3_ctrl",  "hAO_r4_ctrl", "hAO_r1_inf","hAO_r2_inf", "hAO_r3_inf",  "hAO_r4_inf" )] #Reorder columns 
+data %>% data.frame() %>% mutate(across(where(is.character), as.numeric)) %>% as.matrix() -> data_num #Convert all characters to nber
+count_mat <- select(count_mat, -1) # remove the first column of count mat for later step 
+
+#Metadata & Condition (ctrl , inf) 
+split_names <- strsplit(colnames(data), "_")
+condition<- sapply(split_names, function(x) x[3])
+metadata <-  data.frame(condition)
+rownames(metadata) <- colnames(data_num)
+
+# Normalize data 
+# Z score function calculation
+data_norm <-  t(scale(t(data_num))) # Apply across all rows (1) the Z-score function (Substract mean and divide by sd)
+data_norm_gene_name <- data_norm
+data_norm_gene_name <- data.frame(gene_name = row.names(data_norm_gene_name), data_norm_gene_name)
+
+```
+
+### Define color palette for the timepoints
+```{r}
+# timepoint_Palette <- c("biopsy" = "mediumpurple", "surgery"="chocolate1")
+timepoint_Palette <- c("Inf" = "#4DBBD5FF", "Ctrl"="#E64B35FF")
+```
+
+
+```{r include = FALSE}
+pvalue_col_fun = colorRamp2(c(0, 1, 2), c("green", "white", "red")) 
+ 
+
+calc_ht_size = function(ht, unit = "inch") {
+    pdf(NULL)
+    ht = draw(ht)
+    w = ComplexHeatmap:::width(ht)
+    w = convertX(w, unit, valueOnly = TRUE)
+    h = ComplexHeatmap:::height(ht)
+    h = convertY(h, unit, valueOnly = TRUE)
+    dev.off()
+
+    c(w, h)
+}
+
+save_plot = function(hm, filename, format = "all", res = 300) {
+  
+  hm_size = calc_ht_size(hm)
+  
+  if (format == "all" | format == "pdf") {
+    pdf(file = file.path(paste0(filename, ".pdf")), width = hm_size[1], height = hm_size[2], bg = "white")
+    draw(hm)
+    dev.off()
+  }
+
+  if (format == "all" | format == "png") {
+    png(filename = file.path(paste0(filename, ".png")), width = hm_size[1], height = hm_size[2], units = "in", res = res, bg = "white")
+    draw(hm)
+    dev.off()
+  }
+
+  if (format == "all" | format == "svg") {
+    svg(filename = file.path(paste0(filename, ".svg")), width = hm_size[1], height = hm_size[2], bg = "white")
+    draw(hm)
+    dev.off()
+  }
+
+}
+
+get_marker_pval <- function(marker_expr, de_genes, marker_genes) {
+  # make correctly ordered marker genes p.values
+  marker_padj = (rownames(marker_expr) |> as_tibble() |> rename(gene_name = value)) |>
+    left_join(de_genes) |>
+    filter(gene_name %in% marker_genes) |>
+      mutate(sig = if_else(padj < 0.1, "*", ""))
+}    
+
+```
+
+### Define marker genes of interest
+
+```{r include = TRUE, message = FALSE, warnings = FALSE}
+
+goi = c("LCN2", "NGAL","FPN1","TFR1","FTH1","FTL","NOS1","NOS2","NOSIP","NOSTRIN","NOS3","NOS2P2","NOX1","NOX5","HAMP","SLC2A6","SLC25A37","SLCO4A1","SLC16A9","SLC7A5","SLC16A1","SLC35F3","SLC5A8","SLC25A25-AS1","SLC6A14","SLCO3A1","SLC45A3","SLC43A2","SLC25A22","SLC11A2","SLC7A11","SLC8B1","SLC30A7","SLC43A3","SLC35E1","SLC38A2","DUOXA2","DUOX2","NDUFAF6","NDUFV2","IL17C","IL19","IL4I1","IL32","IRAK3","IL1RN","IL4R","IL36G","IRAK2","IL20RA","IRAK1BP1","CXCL8","CXCL6","CXCL3","CXCL5")
+
+```
+
+### Marker genes of interest expression heatmaps
+
+```{r include = FALSE}
+contrast = list(
+  hA0 = list(
+    ctrl = c("ctrl","inf")
+  )
+)
+
+```
+
+```{r}
+x = lapply(names(contrast), function(c) {
+  print(c) 
+  })
+```
+
+
+
+
+```{r}
+#marker_genes = goi
+sample_order = c( "hAO_r1_inf","hAO_r2_inf", "hAO_r3_inf",  "hAO_r4_inf",  "hAO_r1_ctrl",  "hAO_r2_ctrl",  "hAO_r3_ctrl",  "hAO_r4_ctrl")
+rownames(data_norm_gene_name) <- NULL
+marker_expr <- data_norm_gene_name |>
+  relocate(any_of(sample_order)) |>
+  column_to_rownames(var = "gene_name") |>
+  filter_all(any_vars(. != 0)) |>
+  as.matrix()
+
+
+```
+
+```{r}
+
+
+get_marker_pval <- function(marker_expr, de_genes) {
+  # make correctly ordered marker genes p.values
+  marker_padj = (rownames(marker_expr) |> as_tibble() |> rename(gene_name = value)) |>
+    left_join(de_genes) |>
+      mutate(sig = if_else(padj < 0.1, "*", ""))}
+  
+# make correctly ordered marker genes p.values
+marker_padj = get_marker_pval(marker_expr, de_res)
+marker_padj <- marker_padj %>%
+  rownames_to_column() %>%
+  arrange(padj)
+
+marker_padj <- head(marker_padj,30)
+```
+```{r}
+
+# Get the gene_name column from expr_adj
+gene_names_to_select <- marker_padj$gene_name
+
+marker_expr <- marker_expr[rownames(marker_expr) %in% gene_names_to_select, ]  # Extract rows from data based on the 40 lowest padj genes
+
+marker_expr <- marker_expr[gene_names_to_select, , drop = FALSE] # order de matrix accordingly to the deseq results 
+```
+
+```{r}
+#ha = rowAnnotation(
+ # padj = anno_simple(-log10(marker_padj$padj), col = pvalue_col_fun, pch = marker_padj$sig),
+#  gap = unit(1, "mm")
+ # )
+
+ha = columnAnnotation(
+  padj = anno_simple(-log10(marker_padj$padj), col = pvalue_col_fun, pch = marker_padj$sig),
+  gap = unit(1, "mm")
+  )
+
+
+lgd_pvalue = Legend(title = "padj", col_fun = pvalue_col_fun, at = c(0, 1, 2), labels = c("1", "0.1", "0.01"))
+lgd_sig = Legend(pch = "*", type = "points", labels = "padj < 0.1")
+```
+
+```{r}
+# Replace underscores with spaces
+modified_prefix <- gsub("_", " ", prefix)
+
+# Capitalize the first letter
+modified_prefix <- paste(toupper(substr(modified_prefix, 1, 1)), substr(modified_prefix, 2, nchar(modified_prefix)), sep = "")
+
+```
+
+```{r}
+make_bold_names <- function(mat, rc_fun, rc_names) {
+  bold_names <- rc_fun(mat)
+  ids <- rc_names %>% match(rc_fun(mat))
+  ids %>%
+    walk(
+      function(i)
+        bold_names[i] <<-
+        bquote(bold(.(rc_fun(mat)[i]))) %>%
+        as.expression()
+    )
+  bold_names
+}
+```
+
+
+```{r}
+sub_resdir = "/data/projects/2023/Pseudomonas_aeruginosa/20_deseq2icbi/tmp/sub_t"
+
+#hm <- Heatmap(marker_expr ,
+#        na_col = "grey",
+#        column_title = modified_prefix,
+#     
+# 
+#        column_split = rev(condition),
+#        cluster_columns = FALSE,
+#        cluster_rows = FALSE,
+#        #row_order = goi_order, # delete this
+#        column_title_gp = gpar(fontsize = 12),
+#        #column_labels = pat_names,
+#        rect_gp = gpar(col = "white", lwd = 1),
+#        width = ncol(marker_expr)*unit(5, "mm"), 
+#        height = nrow(marker_expr)*unit(5, "mm"),
+#        top_annotation = HeatmapAnnotation(foo = anno_block(gp = gpar(fill = timepoint_Palette),
+#                                                            labels = unique(condition),
+#                                                            labels_gp = gpar(col = "black", fontsize = 12))),
+#        right_annotation = ha,
+#        heatmap_legend_param = list(title = "z-score"))
+
+#draw(hm, annotation_legend_list = list(lgd_pvalue, lgd_sig) )
+
+
+#out_hm <- draw(hm, annotation_legend_list = list(lgd_pvalue, lgd_sig), merge_legend = TRUE, heatmap_legend_side = "right")
+
+hm_t <- Heatmap(t(marker_expr) ,
+        na_col = "grey",
+        #row_title = modified_prefix,
+        row_split = rev(condition),
+        cluster_columns = FALSE,
+        cluster_rows = FALSE,
+        #row_order = goi_order, # delete this
+        #column_title_gp = gpar(fontsize = 12),
+        #column_labels = pat_names,
+        rect_gp = gpar(col = "white", lwd = 1),
+        width = ncol(marker_expr)*unit(15, "mm"), 
+        height = nrow(marker_expr)*unit(2, "mm"),
+        left_annotation = rowAnnotation(foo = anno_block(gp = gpar(fill = timepoint_Palette),
+                                                            labels = unique(condition),
+                                                            labels_gp = gpar(col = "black", fontsize = 12))),
+        bottom_annotation =  ha,
+        heatmap_legend_param = list(title = "z-score"))
+
+out_hm <- draw(hm_t, annotation_legend_list = list(lgd_pvalue, lgd_sig), merge_legend = TRUE, heatmap_legend_side = "right")
+out_hm
+ 
+plot_name = file.path(sub_resdir, paste0(prefix, "_z-score_h"))
+save_plot(out_hm, plot_name, format = "all", res = 300)
+```
+
+
+

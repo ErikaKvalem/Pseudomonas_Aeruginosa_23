@@ -1,0 +1,2 @@
+Usage:
+  00_countmat.py --cpm_data=<cpm_data> --gsea_bp=<gsea_bp> --gene_set=<gene_set> [options]

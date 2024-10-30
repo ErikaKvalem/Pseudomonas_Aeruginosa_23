@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/data/scratch/kvalem/projects/2023/pseudomonas_aeruginosa/preprocessing/20_analysis/bin/00_countmat.py", line 49, in <module>
+    count_mat = pd.read_csv(cpm_data,index_col=0 ) #count per million data
+NameError: name 'cpm_data' is not defined

@@ -1,0 +1,89 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+========================================
+circlize version 0.4.15
+CRAN page: https://cran.r-project.org/package=circlize
+Github page: https://github.com/jokergoo/circlize
+Documentation: https://jokergoo.github.io/circlize_book/book/
+
+If you use it in published research, please cite:
+Gu, Z. circlize implements and enhances circular visualization
+  in R. Bioinformatics 2014.
+
+This message can be suppressed by:
+  suppressPackageStartupMessages(library(circlize))
+========================================
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.4
+✔ lubridate 1.9.3     ✔ stringr   1.5.0
+✔ purrr     1.0.2     ✔ tibble    3.2.1
+Loading required package: grid
+========================================
+ComplexHeatmap version 2.14.0
+Bioconductor page: http://bioconductor.org/packages/ComplexHeatmap/
+Github page: https://github.com/jokergoo/ComplexHeatmap
+Documentation: http://jokergoo.github.io/ComplexHeatmap-reference
+
+If you use it in published research, please cite either one:
+- Gu, Z. Complex Heatmap Visualization. iMeta 2022.
+- Gu, Z. Complex heatmaps reveal patterns and correlations in multidimensional 
+    genomic data. Bioinformatics 2016.
+
+
+The new InteractiveComplexHeatmap package can directly export static 
+complex heatmaps into an interactive Shiny app with zero effort. Have a try!
+
+This message can be suppressed by:
+  suppressPackageStartupMessages(library(ComplexHeatmap))
+========================================
+
+New names:
+• `` -> `...1`
+Rows: 62 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): gene_name
+dbl (9): ...1, hAO_r1_ctrl, hAO_r1_inf, hAO_r2_ctrl, hAO_r2_inf, hAO_r3_ctrl...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 1358 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr (3): gene_id, gene_name, genes_description
+dbl (9): baseMean, log2FoldChange, lfcSE, stat, pvalue, padj, weight, log2Fo...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+New names:
+• `` -> `...1`
+Rows: 98 Columns: 10
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (1): gene_name
+dbl (9): ...1, hAO_r1_ctrl, hAO_r1_inf, hAO_r2_ctrl, hAO_r2_inf, hAO_r3_ctrl...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 21612 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr (3): gene_id, gene_name, genes_description
+dbl (9): baseMean, log2FoldChange, lfcSE, stat, pvalue, padj, weight, log2Fo...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'object' in selecting a method for function 'draw': object 'mn' not found
+Calls: function_plotheatmap ... save_plot -> calc_ht_size -> draw -> .handleSimpleError -> h
+Execution halted

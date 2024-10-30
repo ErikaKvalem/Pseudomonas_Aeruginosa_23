@@ -1,0 +1,13 @@
+response to bacterium 98 --> goi in gene set 10  
+response to lipopolysaccharide 68 -->  goi in gene set 10	
+regulation of defence response 0 --> 
+nitric oxide metabolic process 20 --> goi in gene set 2 
+reactive oxygen species metabolic process 42 -->  goi in gene set 5 
+antimicrobial humoral response 25 --> goi in gene set 4 
+antimicrobial humoral immune response mediated by antimicrobial peptide 14 --> goi in gene set 4 
+cilium assembly 160 --> goi in gene set 0
+cilium organization 173 --> goi in gene set 0
+cilium movement 71 -->  goi in gene set 0
+
+KEGG pathway pae00910 plot displaying the log2 fold change of genes involved in denitrification.
+DEGs from co-culture vs bacterial culture mono-culture comparison of PAO1 transcriptomes. 

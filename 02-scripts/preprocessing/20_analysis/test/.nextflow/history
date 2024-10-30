@@ -1,0 +1,229 @@
+2023-07-17 10:19:57	-	maniac_visvesvaraya	-	4be68638bdd936d5cb090aec762c8f0c	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 10:20:45	17.5s	pensive_thompson	ERR	4be68638bdd936d5cb090aec762c8f0c	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 10:21:25	22.6s	drunk_leibniz	ERR	4be68638bdd936d5cb090aec762c8f0c	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 10:39:18	7.2s	high_jennings	ERR	4be68638bdd936d5cb090aec762c8f0c	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 10:40:36	22.7s	jolly_jennings	ERR	4be68638bdd936d5cb090aec762c8f0c	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:00:34	11.1s	voluminous_cantor	OK	4be68638bdd936d5cb090aec762c8f0c	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:04:05	22.2s	fabulous_knuth	ERR	7226c83aa5b8f7ebd959f55697982354	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:05:25	27.3s	peaceful_mclean	OK	7226c83aa5b8f7ebd959f55697982354	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:11:55	17.7s	mad_woese	ERR	e0ef40d7ceed1a7592c730f28318f629	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:13:18	12.3s	determined_poitras	ERR	e0ef40d7ceed1a7592c730f28318f629	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:17:47	12.3s	confident_babbage	ERR	7c288c1d2a06a5cefe8ffc9a2361c5ce	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:24:55	28.7s	exotic_gauss	ERR	7c288c1d2a06a5cefe8ffc9a2361c5ce	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:39:17	-	irreverent_albattani	-	cf150e93f5834e433c21c41afedaad4a	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:39:30	12.7s	special_allen	ERR	cf150e93f5834e433c21c41afedaad4a	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 11:40:08	18.3s	mighty_meucci	ERR	cf150e93f5834e433c21c41afedaad4a	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 13:51:51	25.4s	condescending_euclid	ERR	cf150e93f5834e433c21c41afedaad4a	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 13:52:35	27.3s	exotic_feynman	ERR	cf150e93f5834e433c21c41afedaad4a	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:06:28	17.3s	intergalactic_pauling	OK	cf150e93f5834e433c21c41afedaad4a	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:21:02	-	spontaneous_colden	-	f04327841eaa858eaa259ec2deeb4715	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:21:45	11.8s	clever_spence	OK	19e9a0764268a94bdb37968a9a1874b6	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:22:40	32.2s	prickly_dalembert	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:23:40	28.1s	astonishing_torricelli	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:25:54	22.2s	infallible_nightingale	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:26:56	22.9s	peaceful_yalow	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:31:55	23s	trusting_banach	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:35:27	17.4s	peaceful_noether	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:53:03	4.7s	pedantic_swirles	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:53:14	3.6s	happy_mirzakhani	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 14:53:50	32.1s	clever_lalande	ERR	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:07:44	17.3s	mad_stallman	OK	f2669c67e60efc390f197af75999b146	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:09:43	7.4s	zen_mayer	OK	19e9a0764268a94bdb37968a9a1874b6	812edc2a-5ca3-423c-8403-08aaff2d712e	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:10:06	22.6s	fervent_leakey	OK	19e9a0764268a94bdb37968a9a1874b6	f1fda84a-211f-423c-bdb4-b11366df0cad	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:11:08	22.4s	sharp_lovelace	OK	19e9a0764268a94bdb37968a9a1874b6	47f9d747-4efd-4381-840f-7e85bb88d984	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:12:55	17.4s	peaceful_morse	OK	1d8820841cb4eb67499e887f0429eedc	79a3d585-e3ca-4dd5-85f6-564ed409c375	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:16:26	2.2s	sleepy_carson	OK	ae005bbd87ce21354247b579b97e0988	64b0ebe9-decf-4089-ac57-bd6d0370c08f	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:20:22	6.8s	cheesy_fourier	OK	1afb048b112ba2647976b145ef6ad3ec	64b0ebe9-decf-4089-ac57-bd6d0370c08f	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:21:06	2.3s	prickly_raman	ERR	38e1fed5b14e318d5c1dbc4c6e1a110b	64b0ebe9-decf-4089-ac57-bd6d0370c08f	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:22:02	11.9s	ridiculous_meitner	ERR	38e1fed5b14e318d5c1dbc4c6e1a110b	64b0ebe9-decf-4089-ac57-bd6d0370c08f	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:23:09	-	gloomy_bartik	-	70cf26d25b5267072cac5b9079a29547	f8dc68e3-84bb-472a-9c3c-276605c82c63	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:23:39	-	lethal_kowalevski	-	b49c3ece287056016183497aaef5213f	828dc8dc-e62a-4185-b5a0-8df078d5eef6	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:27:25	-	festering_morse	-	6e002d9d92e8b6911bbe982567aca1e3	c902015c-e731-47e7-90f0-1ea63cf65c43	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:27:44	-	stoic_shaw	-	6e002d9d92e8b6911bbe982567aca1e3	2c594f38-4987-4605-a0dc-ef445fb6164b	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:30:42	2s	admiring_morse	OK	6e002d9d92e8b6911bbe982567aca1e3	d0dce67b-c06d-49c5-a9b7-bd74e2f3d0db	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:31:22	1.6s	infallible_avogadro	OK	910aeb52fd9b63fd6fd34621b353ce7a	601ce207-bf7a-4ad2-b320-d3d0bc3579bd	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:37:24	17.6s	dreamy_meitner	ERR	8985c7ba51e2d0d44acafdb57a86736f	ef00814a-6cdd-457d-89d1-0ade25ecb94a	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:42:21	3s	exotic_einstein	ERR	8985c7ba51e2d0d44acafdb57a86736f	745a6157-d753-487a-a4d8-896b25881688	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:43:28	21.9s	extravagant_stone	OK	8985c7ba51e2d0d44acafdb57a86736f	0270c6bf-8629-46fe-83d2-735fb99cf790	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:45:00	36.9s	pensive_avogadro	OK	ed02882f7e7918957d897b860ef26dd0	21022de3-2bce-42cc-995c-878fab3dd568	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:48:31	27.9s	reverent_cray	ERR	ed02882f7e7918957d897b860ef26dd0	8402c45a-0940-4070-81f0-07ca6a14fecf	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:50:23	42.8s	focused_boyd	OK	ed02882f7e7918957d897b860ef26dd0	16a5e2de-261c-45ab-82c8-591a1709fe46	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:53:40	39.2s	insane_volta	ERR	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -profile icbi,conda
+2023-07-17 15:55:36	27.9s	cheeky_brazil	OK	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:56:39	22.5s	berserk_dalembert	OK	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:57:50	27.2s	deadly_curie	ERR	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 15:58:42	17.3s	ridiculous_shannon	OK	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-17 16:00:41	22s	friendly_pike	OK	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-18 09:17:38	28.5s	nostalgic_brahmagupta	ERR	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-18 09:18:38	23.8s	nice_gutenberg	OK	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-18 09:20:12	19.7s	lethal_gauss	OK	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-18 09:23:51	23.5s	thirsty_faraday	ERR	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 10:41:46	23.4s	shrivelled_plateau	ERR	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 10:42:56	18.5s	nauseous_raman	ERR	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 10:45:24	23.6s	clever_mandelbrot	ERR	ed02882f7e7918957d897b860ef26dd0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 10:47:57	48.7s	pensive_solvay	OK	5ee551a0adef22596365a43fb5cac24c	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 11:27:18	-	high_faggin	-	74975ad5f9a3c41d42b521aa19b2723a	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 11:28:38	8.3s	goofy_torvalds	OK	1c4573982731d51634483d101670718a	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 11:32:05	7.5s	intergalactic_boltzmann	OK	1d503e0a20ddca156755e5ab2dd4f2de	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:29:20	1m 48s	elated_coulomb	OK	1d503e0a20ddca156755e5ab2dd4f2de	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:48:33	7.7s	friendly_lamport	OK	1d503e0a20ddca156755e5ab2dd4f2de	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:50:48	8.8s	trusting_goldberg	OK	1d503e0a20ddca156755e5ab2dd4f2de	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:51:32	8s	desperate_brahmagupta	OK	1c32608b7b9fa62e44f3de3ddcd6f786	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:52:29	7.7s	lethal_tuckerman	OK	98cbadbc29eb839be9d80130fff72d83	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:53:12	7.4s	grave_kowalevski	OK	003a5d92a0874eb0f598b3a260f8697a	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:54:11	8.3s	desperate_sinoussi	OK	085401800bcbfbc2b916bbd014ab9d89	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:55:30	8.5s	sleepy_poisson	OK	4658ef1dfba51cee860d27341f9e0f32	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:56:00	18.1s	mad_torricelli	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 14:59:21	27.7s	agitated_curran	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 15:01:31	17.7s	modest_borg	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 15:02:08	37.9s	sharp_sanger	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 15:04:56	32.6s	desperate_poincare	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 15:06:14	38.2s	gigantic_miescher	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 15:08:35	-	prickly_yonath	-	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-20 15:15:24	-	ecstatic_cray	-	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 08:32:28	-	intergalactic_yalow	-	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 08:35:06	28.1s	clever_volta	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 08:57:58	13.2s	determined_kalman	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 08:59:01	13.2s	stoic_mcclintock	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 09:53:25	23.2s	clever_murdock	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 09:55:17	13.3s	loving_majorana	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 09:58:01	12.8s	ridiculous_curran	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 09:58:46	39.3s	spontaneous_elion	OK	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 10:09:58	33.8s	disturbed_shockley	ERR	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 10:12:14	43.5s	soggy_minsky	OK	a7200c769ed068f23c42003da2cfc2a1	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 10:50:53	-	focused_waddington	-	feec1b994fb6d591c8091c58f00fece0	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 10:51:19	43.6s	compassionate_noyce	ERR	857000c26de447d1457817a5c18e9de4	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 10:52:59	23s	sharp_torricelli	OK	857000c26de447d1457817a5c18e9de4	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 10:58:53	39.2s	fabulous_waddington	ERR	857000c26de447d1457817a5c18e9de4	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 11:00:51	29.5s	golden_shaw	ERR	857000c26de447d1457817a5c18e9de4	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 11:06:30	18.8s	insane_boyd	ERR	857000c26de447d1457817a5c18e9de4	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 11:07:20	13.6s	reverent_dubinsky	OK	857000c26de447d1457817a5c18e9de4	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 11:11:18	33.3s	angry_hodgkin	OK	857000c26de447d1457817a5c18e9de4	8c5c3e08-5374-4c49-aa88-13bf3b70e18d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 11:12:37	43.3s	determined_rosalind	OK	857000c26de447d1457817a5c18e9de4	9b96b83d-76be-4649-8a89-30fe30f18a34	nextflow run ../main.nf -profile icbi,conda
+2023-07-21 11:15:28	8s	big_crick	OK	857000c26de447d1457817a5c18e9de4	9b96b83d-76be-4649-8a89-30fe30f18a34	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-21 15:40:56	19.1s	dreamy_goldberg	ERR	7f442e52d4be09414192c1bfa60908ca	3cd4b9a6-69b1-45d3-825e-52138e3caa61	nextflow run ../main.nf -profile icbi,conda
+2023-07-21 15:41:39	40.7s	ecstatic_mendel	ERR	7f442e52d4be09414192c1bfa60908ca	0a491ea1-2466-42c2-bc97-d0a0dca1e7db	nextflow run ../main.nf -profile icbi,conda
+2023-07-21 15:59:45	33.6s	stupefied_leibniz	ERR	7f442e52d4be09414192c1bfa60908ca	cb1d443f-9dda-4670-9753-6e1e3953d983	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 08:53:52	38.2s	cranky_goldstine	ERR	7f442e52d4be09414192c1bfa60908ca	13db77b2-df3f-44a9-9e52-6000b2f51bd9	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 08:55:12	37.6s	lonely_liskov	OK	7f442e52d4be09414192c1bfa60908ca	947e7728-277f-4f91-bdf2-1697ff28d5e3	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:00:02	27.4s	special_mandelbrot	ERR	1b825b6f03f0555c4aa719f14c89e287	c6d81cfc-19ee-4914-835f-12d1f9d4002b	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:01:24	37.2s	furious_dubinsky	ERR	1b825b6f03f0555c4aa719f14c89e287	ded17637-273a-4044-8cae-2d3d9242f5ac	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:04:22	37.8s	stupefied_neumann	ERR	1b825b6f03f0555c4aa719f14c89e287	ced0d158-771e-41e4-b261-1785884d2b46	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:06:26	33s	sharp_swartz	ERR	1b825b6f03f0555c4aa719f14c89e287	d342388f-f79e-47bb-ac87-6f1efe078b79	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:07:59	38s	loving_hodgkin	OK	1b825b6f03f0555c4aa719f14c89e287	08ec81ec-279e-4b1e-a36d-42dbd64471d2	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:15:29	13.1s	silly_bohr	ERR	1b825b6f03f0555c4aa719f14c89e287	85e90b30-9743-4636-8845-f80b2015295a	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:16:04	47.7s	drunk_yonath	OK	1b825b6f03f0555c4aa719f14c89e287	7c9263c7-95bc-4234-a3ec-c1d9e6289364	nextflow run ../main.nf -profile icbi,conda
+2023-07-22 09:18:35	48.4s	distracted_church	OK	1b825b6f03f0555c4aa719f14c89e287	f6982b40-72a2-4ded-963c-45fdeb5b7c75	nextflow run ../main.nf -profile icbi,conda
+2023-07-23 20:40:36	42.5s	goofy_hamilton	ERR	1b825b6f03f0555c4aa719f14c89e287	f6982b40-72a2-4ded-963c-45fdeb5b7c75	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-23 20:47:15	17.7s	reverent_brown	ERR	5756c70e0dc0562d7afa08d26d6f986c	f6982b40-72a2-4ded-963c-45fdeb5b7c75	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-23 20:48:06	22.7s	festering_boltzmann	ERR	5756c70e0dc0562d7afa08d26d6f986c	f6982b40-72a2-4ded-963c-45fdeb5b7c75	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-23 20:51:40	22.1s	nice_carlsson	ERR	5756c70e0dc0562d7afa08d26d6f986c	f6982b40-72a2-4ded-963c-45fdeb5b7c75	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-23 20:53:27	17.5s	amazing_crick	ERR	5756c70e0dc0562d7afa08d26d6f986c	f6982b40-72a2-4ded-963c-45fdeb5b7c75	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-23 20:56:41	17.8s	infallible_stonebraker	ERR	5756c70e0dc0562d7afa08d26d6f986c	f6982b40-72a2-4ded-963c-45fdeb5b7c75	nextflow run ../main.nf -resume -profile icbi,conda
+2023-07-24 08:07:29	32.4s	big_hypatia	ERR	5756c70e0dc0562d7afa08d26d6f986c	d5cea134-27ad-4eed-997f-16921ab8d60b	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:07:24	45s	tiny_torricelli	OK	5756c70e0dc0562d7afa08d26d6f986c	0c6661f1-ea35-42da-bc31-908f12b07149	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:11:47	28.3s	pensive_leibniz	ERR	5756c70e0dc0562d7afa08d26d6f986c	72ea77a6-2f3d-43eb-a54c-e804e90479d1	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:15:40	46.5s	gloomy_lovelace	ERR	5756c70e0dc0562d7afa08d26d6f986c	12568231-d0aa-4e08-9078-d81f7ea4c447	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:16:59	41.3s	extravagant_colden	OK	5756c70e0dc0562d7afa08d26d6f986c	63168a43-a245-441b-a087-be3cb673601b	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:20:27	40.3s	compassionate_lamarr	OK	5756c70e0dc0562d7afa08d26d6f986c	44d5f1ca-5c98-4504-b242-8e81e3e68810	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:23:59	39.2s	cranky_hopper	OK	5756c70e0dc0562d7afa08d26d6f986c	3f42e0b3-d129-46e8-9cc2-990bdb95147c	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:25:54	44.5s	focused_wilson	OK	5756c70e0dc0562d7afa08d26d6f986c	4dbafb32-3104-4690-9809-b0c0ffa96446	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:55:05	47.4s	peaceful_allen	OK	5756c70e0dc0562d7afa08d26d6f986c	e664365a-1a6b-4ef7-8373-7a2739688193	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:56:36	49.9s	grave_panini	OK	5756c70e0dc0562d7afa08d26d6f986c	ee9bacc4-ec55-459d-88f9-aa57b41a881d	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 09:59:51	48.4s	silly_poincare	OK	5756c70e0dc0562d7afa08d26d6f986c	09b0efb7-da42-4c6a-a587-73f4ba8454d8	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 10:03:34	54.4s	spontaneous_dijkstra	OK	5756c70e0dc0562d7afa08d26d6f986c	b796ed25-9940-4b15-8751-cde04025d599	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 10:05:07	48s	maniac_rosalind	OK	5756c70e0dc0562d7afa08d26d6f986c	bfc8416e-298e-457a-a569-7608ceea2425	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 10:31:13	43.2s	sad_monod	OK	5756c70e0dc0562d7afa08d26d6f986c	41d8c9fe-733a-47e6-8b46-122afd70b5e6	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 10:34:28	43.8s	gloomy_solvay	OK	5756c70e0dc0562d7afa08d26d6f986c	e26ce28f-934f-4548-97e9-65b54ad8e25f	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 10:36:20	52.7s	trusting_shockley	OK	5756c70e0dc0562d7afa08d26d6f986c	7ae1b679-51a7-4471-9d43-36b932a2bbf8	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 11:21:10	1m	ridiculous_gilbert	OK	5756c70e0dc0562d7afa08d26d6f986c	b345451c-1f38-491d-a2e3-b4d5b70d6724	nextflow run ../main.nf -profile icbi,conda
+2023-07-24 11:22:45	39.2s	prickly_morse	OK	5756c70e0dc0562d7afa08d26d6f986c	6c978d07-3b8b-4642-8b0f-ef160d309ffe	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 09:25:53	-	wise_hopper	-	1ac31dc48b88357a64cbb8cbfa7b726e	d7793e22-7025-4495-a46e-d5821c0b493d	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 09:26:36	27.4s	exotic_colden	ERR	2fadf66be93736a41084749804c4d989	290f8985-f997-44d8-8ab4-b8f6b37e75b2	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 09:31:17	7.7s	fabulous_watson	ERR	2fadf66be93736a41084749804c4d989	ee03dae4-4439-4d2d-b22c-6a173d7b63f0	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 09:31:46	31.9s	golden_kalam	ERR	2fadf66be93736a41084749804c4d989	4ca98a0d-30f7-45cf-a7b4-e4c65cf2de7f	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 09:38:53	37.2s	suspicious_dubinsky	ERR	2fadf66be93736a41084749804c4d989	75f8e2e5-43be-428b-a69a-3a03ed691fa1	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 09:42:07	38.2s	naughty_waddington	ERR	2fadf66be93736a41084749804c4d989	935598a2-b5d0-40ea-8e4b-3568821d8192	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 10:27:23	37.2s	reverent_curie	ERR	2fadf66be93736a41084749804c4d989	2505118a-3c8e-4137-9fa9-7b017709ea28	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 10:29:36	41.9s	amazing_mirzakhani	ERR	2fadf66be93736a41084749804c4d989	d41dd9fe-18b2-4c86-afd0-37ff74a42342	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 10:32:17	28s	admiring_faggin	ERR	2fadf66be93736a41084749804c4d989	a9d9c937-511b-4194-a2f3-16066491c26a	nextflow run ../main.nf -profile icbi,conda
+2023-08-03 10:33:08	23.1s	goofy_sax	ERR	2fadf66be93736a41084749804c4d989	a9d9c937-511b-4194-a2f3-16066491c26a	nextflow run ../main.nf -resume -profile icbi,conda
+2023-08-03 10:39:23	23.1s	marvelous_becquerel	ERR	2fadf66be93736a41084749804c4d989	a9d9c937-511b-4194-a2f3-16066491c26a	nextflow run ../main.nf -resume -profile icbi,conda
+2023-08-03 10:42:51	23.2s	pedantic_miescher	ERR	2fadf66be93736a41084749804c4d989	a9d9c937-511b-4194-a2f3-16066491c26a	nextflow run ../main.nf -resume -profile icbi,conda
+2023-08-03 10:44:18	12.6s	awesome_meninsky	ERR	2fadf66be93736a41084749804c4d989	a9d9c937-511b-4194-a2f3-16066491c26a	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-06 10:59:56	20.4s	exotic_brahmagupta	ERR	2fadf66be93736a41084749804c4d989	cc006d13-e3be-4127-86a6-d002ba6c410e	nextflow run ../main.nf -profile conda
+2023-11-06 11:01:35	47.5s	nostalgic_lavoisier	OK	2fadf66be93736a41084749804c4d989	c8281568-f499-4810-8a59-3f94274b5bbe	nextflow run ../main.nf -profile conda
+2023-11-06 13:08:16	53s	stupefied_kay	OK	2fadf66be93736a41084749804c4d989	ce2d440c-fed9-4a1d-a484-7cdf5aac69b0	nextflow run ../main.nf --profile conda
+2023-11-06 14:11:19	46.1s	chaotic_meninsky	OK	2fadf66be93736a41084749804c4d989	5101e593-6f75-4225-b336-fc4d47a4383a	nextflow run ../main.nf --profile conda
+2023-11-06 14:18:27	38.6s	small_ramanujan	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf --profile conda
+2023-11-13 11:10:07	43.4s	awesome_goldstine	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 13:24:09	23.9s	nasty_solvay	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 13:25:44	6.7s	small_payne	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 13:28:58	22.4s	intergalactic_celsius	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 13:30:58	19.4s	nice_torvalds	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 13:41:19	32.3s	romantic_legentil	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:15:20	22.8s	cheesy_jennings	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:22:49	22.8s	furious_stallman	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:24:38	22.4s	naughty_montalcini	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:26:25	17.7s	romantic_curry	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:28:00	27.4s	ecstatic_majorana	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:30:11	18.1s	soggy_nightingale	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:31:24	17.9s	dreamy_torvalds	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:32:23	27s	stoic_tesla	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 14:39:30	28s	spontaneous_wiles	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:23:05	23s	festering_carlsson	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:31:47	22.6s	zen_minsky	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:35:06	22.2s	amazing_darwin	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:37:46	23.2s	fervent_hoover	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:38:23	17.4s	jovial_swirles	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:39:30	27.1s	zen_boltzmann	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:40:31	27.5s	voluminous_wozniak	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-13 15:44:24	16.7s	naughty_blackwell	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 10:04:12	7.5s	small_galileo	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 10:06:01	27.1s	mad_cori	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 10:10:30	37.5s	goofy_perlman	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 10:12:17	6.9s	astonishing_newton	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 10:50:10	17.7s	loving_kirch	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 10:53:39	25.8s	romantic_celsius	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 10:55:08	27.2s	desperate_pare	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-14 11:05:38	32.3s	stoic_hopper	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 13:13:28	33.2s	thirsty_bohr	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 13:43:17	17.4s	modest_venter	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 13:45:04	22.7s	serene_lamarck	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 15:34:22	38.1s	hungry_faraday	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 15:47:08	23.7s	mad_sammet	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 15:49:12	18.1s	sleepy_archimedes	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:01:58	17.8s	deadly_bose	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:03:02	18.1s	awesome_rutherford	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:03:56	22.2s	ridiculous_faraday	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:05:36	12.6s	lethal_golick	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:06:54	23.3s	maniac_ramanujan	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:09:29	17.6s	gloomy_jennings	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:10:41	22.1s	clever_panini	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:21:22	27.1s	irreverent_goodall	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:22:31	17s	irreverent_babbage	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:23:15	17.5s	stupefied_wright	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:48:30	17.8s	gloomy_plateau	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:49:44	17.5s	distracted_jang	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-17 16:51:45	17.8s	voluminous_ampere	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:05:59	22.3s	cranky_khorana	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:08:47	17.7s	prickly_kalman	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:11:43	37.6s	admiring_fermi	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:13:11	21.9s	friendly_shirley	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:16:35	27s	soggy_swanson	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:25:10	31.7s	zen_volta	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:45:17	32s	small_pasteur	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:48:43	21.9s	intergalactic_raman	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:49:52	37.2s	awesome_linnaeus	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:51:52	37.4s	reverent_agnesi	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 14:55:53	37.2s	shrivelled_raman	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 15:13:58	17.1s	voluminous_yalow	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 15:15:25	42.4s	amazing_planck	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 15:19:12	32.1s	intergalactic_joliot	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 15:29:04	32.2s	distracted_payne	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-11-18 15:31:30	32.5s	prickly_brenner	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-12-26 09:33:11	-	modest_dubinsky	-	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-12-26 09:33:26	12.1s	focused_stone	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-12-26 09:34:27	42.2s	lonely_carson	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-12-26 09:41:34	17.8s	nauseous_pike	ERR	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
+2023-12-26 09:44:09	22.1s	clever_goldberg	OK	2fadf66be93736a41084749804c4d989	aa0d5c88-ac2f-4251-b083-171e4f4d8b1d	nextflow run ../main.nf -resume -profile icbi,conda
